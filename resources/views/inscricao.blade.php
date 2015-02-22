@@ -29,7 +29,7 @@
             background: url('{{ asset('interface-ui_kit/img/grid.png') }}') repeat center center;
         }
         .my-header{
-            background: url('{{ asset('interface-ui_kit/img/marca.png') }}') 50% 10% no-repeat;
+            background: url('{{ asset('interface-ui_kit/img/Logo Caravana.png') }}') 50% 10% no-repeat;
             padding-top:170px;
             animation: animacaoMarca 1s ease;
         }
@@ -140,9 +140,9 @@
 
     <div class="uk-grid">
         <div class="uk-width-1-1 uk-text-center">
-            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/FEEB_Redesign_v4_FINAL-01.png') }}" alt="">
-            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/FEEB_Redesign_v4_FINAL-04.png') }}" alt="">
-            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/selo_ComemorativoFEEB_Final_PRETO.png') }}" alt="">
+            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/01.png') }}" alt="">
+            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/03.png') }}" alt="">
+            <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/02.png') }}" alt="">
             {{--<img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/marca_04.png') }}" alt="">
             <img class="uk-thumbnail" src="{{ asset('interface-ui_kit/img/marca_05.png') }}" alt="">--}}
         </div>
