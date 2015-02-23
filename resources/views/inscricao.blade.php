@@ -29,7 +29,7 @@
             background: url('{{ asset('interface-ui_kit/img/grid.png') }}') repeat center center;
         }
         .my-header{
-            background: url('{{ asset('interface-ui_kit/img/Logo Caravana.png') }}') 50% 10% no-repeat;
+            background: url('{{ asset('interface-ui_kit/img/Logo-Caravana_A.png') }}') 50% 10% no-repeat;
             padding-top:170px;
             animation: animacaoMarca 1s ease;
         }

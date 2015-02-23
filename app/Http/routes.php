@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', function(){
+    return Redirect::to('inscricao/form');
+});
 
 Route::controller('inscricao', 'CaravanaController');
