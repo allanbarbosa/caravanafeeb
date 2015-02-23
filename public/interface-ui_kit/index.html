@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Frontpage layout example - UIkit documentation</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <script src="js/uikit.min.js"></script>
+        <style type="text/css">
+
+            @keyframes animacaoMarca{
+                from{
+                    background-position: 50% -160%;
+                    opacity: 0;
+                }
+                to{
+                    background-position: 50% 10%; 
+                    opacity: 1;
+                }
+                
+            }
+
+            .my-gradient-style{
+                background-image: radial-gradient(50% 100%, #3498DB 53%, #2980B9 100%);
+            }
+            .my-grid {
+                background: url('img/grid.png') repeat center center;
+            }
+            .my-header{
+                background: url('img/marca.png') 50% 10% no-repeat; 
+                padding-top:170px;
+                animation: animacaoMarca 1s ease;
+            }
+            .my-header .uk-header-large{
+                color: #FFF;
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="my-gradient-style" data-uk-grid-margin>
+            <div class="my-grid">
+                <div class="uk-container uk-container-center">
+                    <div class="ui-grid">
+                        <div class="uk-width-medium-1-1">
+                            <div class="uk-vertical-align uk-text-center my-header">
+                                <div class="uk-vertical-align-middle">
+                                    <h1 class="uk-header-large">Seminário da Caravana da Baiana da Fraternidade</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+            <div class="uk-grid" data-uk-grid>
+                <div class="uk-width-large-7-10 uk-width-small-1-1 uk-width-medium-1-1 uk-container-center">
+                    <form class="uk-form uk-form-stacked">
+                        <fieldset>
+                            <legend>Cadastro básico</legend>
+                            <div class="uk-form-row">
+                                <label class="uk-form-label" for="nome">Nome</label>
+                                <input type="text" name="nome" class="uk-width-1-1 uk-form-large" id="nome">
+                            </div>
+                            
+                            <div class="uk-form-row">
+                                <div class="uk-grid" data-uk-grid>
+                                    <div class="uk-width-large-1-2 uk-width-small-1-1 uk-width-medium-1-1">
+                                        <div class="uk-form-row">
+                                            <label class="uk-form-label" for="telefone">Telefone</label>
+                                            <input type="text" name="telefone" class="uk-width-1-1 uk-form-large" id="telefone">
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-large-1-2 uk-width-small-1-1 uk-width-medium-1-1">
+                                        <div class="uk-form-row">
+                                            <label class="uk-form-label" for="email">E-mail</label>
+                                            <input type="text" name="email" class="uk-width-1-1 uk-form-large" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="uk-form-row">
+                                <label class="uk-form-label" for="instituicao">Instituição</label>
+                                <input type="text" name="instituicao" class="uk-width-1-1 uk-form-large" id="instituicao">
+                            </div>
+
+                            <div class="uk-form-row">
+                                <label class="uk-form-label" for="area_atuacao">Área de atuação</label>
+                                <input type="text" name="area_atuacao" class="uk-width-1-1 uk-form-large" id="area_atuacao">
+                            </div>
+                            <div class="uk-form-row">
+                                <button class="uk-button uk-button-primary uk-button-large" type="button">Enviar cadastro</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+            <div class="uk-grid-divider"></div>
+            <h2 class="uk-header">Realização</h2>
+            
+            <div class="uk-grid">
+                <div class="uk-width-1-1 uk-text-center">
+                    <img class="uk-thumbnail" src="img/marca_01.png" alt="">
+                    <img class="uk-thumbnail" src="img/marca_02.png" alt="">
+                    <img class="uk-thumbnail" src="img/marca_03.png" alt="">
+                    <img class="uk-thumbnail" src="img/marca_04.png" alt="">
+                    <img class="uk-thumbnail" src="img/marca_05.png" alt="">
+                </div>
+            </div>
+        
+            <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-medium-1-1">
+                    <div class="uk-panel uk-panel-box uk-text-center">
+                        <p>Design por: edyonil</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
